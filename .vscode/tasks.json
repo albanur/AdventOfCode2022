@@ -5,6 +5,7 @@
             "label": "C/C++: g++.exe build active file",
             "command": "g++.exe",
             "args": [
+                "-Wall",
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
